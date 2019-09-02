@@ -42,6 +42,6 @@ public class Merchants {
 
     @Basic
     @Column(name = "is_audit", nullable = false)
-    private Boolean isAudit = false;
+    private Boolean isAudit;
 
 }
